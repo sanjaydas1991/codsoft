@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    width: 100vh;
+    background:#1e6579;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Calculator{
+    background: #1e6579;
+    padding: 20px;
+    border-radius: 12px;
+}
+.Calculator form input{
+    border: 0;
+    outline: 0;
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 0;
+}
